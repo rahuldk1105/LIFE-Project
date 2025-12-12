@@ -10,7 +10,7 @@ interface HeaderProps {
   balance: number;
 }
 
-export function Header({ currentUser, balance }: HeaderProps) {
+export function Header({ currentUser: _currentUser, balance }: HeaderProps) {
   // Mock countdown for raffle
   const [timeLeft] = useState({ d: 6, h: 12, m: 54 });
 
